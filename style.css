@@ -44,10 +44,16 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 20px;
 }
 
 .info-detail {
    margin-left: 20px;
+}
+
+.info-more {
+    margin-top: 10px;
 }
 
 .change {
@@ -70,6 +76,7 @@ button {
 .payment {
     background-color: hsl(245, 75%, 52%);
     color: white;
+    margin-top: 10px;
 }
 
 .cancel {
