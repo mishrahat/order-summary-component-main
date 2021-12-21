@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+span {
+    color: black;
+}
+
+.card-title, span {
+    font-weight: 900;
+    margin-top: 10px;
+}
+.card-body {
+    padding: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
+}
+.card {
+    width: 410px;
+}
+
+.card svg {
+    width: 100%;
+}
+
+.annual-plan {
+    font-weight: 900;
+}
+
+p{
+    font-size: 18px;
+    color: hsl(224, 24%, 54%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.info-detail {
+   margin-left: 20px;
+}
+
+.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+
+.info-more {
+    display: flex;
+}
+
+button {
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.cancel {
+    background-color: white;
+    color: hsl(224, 24%, 54%);
+    margin-top: 10px;
+}
+
+
+/* responsive styles */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .card {
+          width: 300px;
+      }
+      
+      .info-more {
+          display: flex;
+      }
+      
+      .info-more svg {
+          width: 100%;
+      }
+
+     .info-detail {
+         font-size: 15px;
+     }
+
+     .change {
+        color: hsl(245, 75%, 52%);
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
